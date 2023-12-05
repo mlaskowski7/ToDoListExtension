@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "To Do List",
+    "version": "1.0",
+    "description": "To do list extension for chrome by mlaskowski7",
+    "icons": {
+      "48": "img/icon.png"
+    },
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "action":{
+        "default_popup": "index.html"
+    }
+}
+  

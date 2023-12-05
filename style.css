@@ -63,12 +63,13 @@ button:hover{
     background-color: #1a4b4b;
     border-radius: 6px;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 #task-list li span{
     flex-grow: 1;
     margin-left: 10px;
-    word-break: break-all;
+    font-size: 13px;
 }
 
 input[type='checkbox']{

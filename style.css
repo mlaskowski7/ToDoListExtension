@@ -2,4 +2,89 @@
 
 body{
     font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 350px;
 }
+
+#container{
+    
+    background-color: #226666;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+#new-task{
+    font-family: 'Anonymous Pro', monospace;
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+#add-task{
+    font-family: 'Anonymous Pro', monospace;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #AA6C39;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#add-task:active{
+    transform: translateY(5px);
+}
+
+#task-list{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+
+}
+
+#task-list li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a4b4b;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#task-list li span{
+    flex-grow: 1;
+    margin-left: 10px;
+    word-break: break-all;
+}
+
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+button:not(#add-task){
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: #AA3939;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
